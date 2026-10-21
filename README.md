@@ -18,9 +18,6 @@ What it means: Rendering every single voxel in a dense 3D grid would destroy per
 
 Under the hood: Once the visible voxels are isolated, the GPU generates its own draw commands. This keeps the CPU completely out of the rendering loop, preventing the classic CPU-to-GPU communication bottleneck and allowing for massive voxel counts.
 
-Work in progress
-https://www.youtube.com/watch?v=lFm6sKG_vB8
-
 
 Markdown## 🚀 Quick Start
 
